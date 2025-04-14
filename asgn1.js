@@ -247,9 +247,6 @@ function drawEllipseAtPosition(cx, cy, rx, ry, color, segments = 60) {
 }
 
 function drawDuck() {
-  console.log(
-    "Drawing the masterpiece duck with head on top (head shifted to the right)..."
-  );
   gl.clear(gl.COLOR_BUFFER_BIT);
   drawRectangle(-1.0, -1.0, 1.0, -0.3, [0.1, 0.45, 0.8, 1.0]);
   drawEllipseAtPosition(-0.05, 0.0, 0.4, 0.25, [1.0, 0.95, 0.3, 1.0], 80);
